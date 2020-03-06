@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Goals from './components/Goals';
+import App from './App';
 
 let root = document.getElementById('root');
 
 ReactDOM.render(
-  <Goals />,
+  <App />,
   root
 );
