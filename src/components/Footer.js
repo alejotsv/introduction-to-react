@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
   return(
     <footer>
-      &copy;Copyright Alejandro Salas 2020
+      Copyright &copy; Alejandro Salas 2020. All rights reserved.
     </footer>
   )
 }
