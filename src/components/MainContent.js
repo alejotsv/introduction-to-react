@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Goals() {
+function MainContent() {
   return(
     <div>
       <h3>Goals for 2020:</h3>
@@ -13,4 +13,4 @@ function Goals() {
   );
 }
 
-export default Goals;
+export default MainContent;

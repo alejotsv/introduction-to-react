@@ -1,12 +1,12 @@
 import React from 'react';
 import NavBar from './components/NavBar'
-import Goals from './components/Goals';
+import MainContent from './components/MainContent';
 
 function App() {
   return(
     <div>
       <NavBar />
-      <Goals />
+      <MainContent />
     </div>
   );
 }
