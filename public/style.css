@@ -3,19 +3,26 @@ body {
 }
 
 .navbar {
-  height: 100px;
+  height: 80px;
   background-color: #333;
   color: whitesmoke;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: center;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0 50px 10px 0;
+}
+
+.navbar > ul {
+  padding: 0;
 }
 
 .navbar > ul > li {
-  list-style-type: none;  
+  list-style-type: none;
+  float: left;
+  padding: 20px;
 }
 
 .navbar > ul > li > a {
