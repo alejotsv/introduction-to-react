@@ -33,3 +33,21 @@ body {
 .navbar > ul > li > a:hover {
   color: yellow;
 }
+
+.goals {
+  margin: 0 50px;
+}
+
+.goals > h2 {
+  color: #333;
+  padding: 10px;
+}
+
+.goals > ul {  
+  padding: 0;
+}
+
+.goals > ul > li {
+  list-style-type: none;
+  padding: 10px;  
+}
