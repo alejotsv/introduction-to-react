@@ -1,9 +1,9 @@
 import React from 'react';
 
-function ToDoItem() {  
-
+function ToDoItem(props) {    
+  
   return(    
-    <li><input class='cbox' type='checkbox' />Become a Web Developer</li>
+    <li><input className='cbox' type='checkbox' />{props.item}</li>
   )
 }
 
